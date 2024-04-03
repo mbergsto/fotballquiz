@@ -1,7 +1,7 @@
 // Fjern den lokale definisjonen av `questions` inne i komponenten
 import React, { useState } from 'react';
 import { View, Text, Button, StyleSheet } from 'react-native';
-import questions from './data/questions.json'; // Importerte spørsmål
+import questions from '../data/questions.json'; // Importerte spørsmål
 
 const QuizScreen = ({ route, navigation }) => {
   const { userName } = route.params;
