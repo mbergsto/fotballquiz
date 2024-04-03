@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "question": "Hvem vant FIFA verdensmesterskapet i 2018?",
+      "options": ["Brasil", "Tyskland", "Frankrike", "Argentina"],
+      "answer": "Frankrike"
+    },
+    {
+      "id": 2,
+      "question": "Hvilken spiller har vunnet Ballon d'Or flest ganger?",
+      "options": ["Cristiano Ronaldo", "Lionel Messi", "Zinedine Zidane", "Ronaldinho"],
+      "answer": "Lionel Messi"
+    },
+    {
+      "id": 3,
+      "question": "Hvilken klubb vant UEFA Champions League i 2021?",
+      "options": ["Manchester City", "Chelsea FC", "Real Madrid", "Bayern München"],
+      "answer": "Chelsea FC"
+    },
+    {
+      "id": 4,
+      "question": "Hvilket land var vert for FIFA verdensmesterskapet i 2022?",
+      "options": ["Qatar", "Russland", "USA", "Canada"],
+      "answer": "Qatar"
+    },
+    {
+      "id": 5,
+      "question": "Hvem er mest scorende på det norske herrelandslaget?",
+      "options": ["John Arne Riise", "Josh King", "Erling Haaland", "Jørgen Juve"],
+      "answer": "Jørgen Juve"
+    }
+  ]
+  
