@@ -1,33 +1,182 @@
 [
-    {
+  {
       "id": 1,
       "question": "Hvem vant FIFA verdensmesterskapet i 2018?",
       "options": ["Brasil", "Tyskland", "Frankrike", "Argentina"],
       "answer": "Frankrike"
-    },
-    {
+  },
+  {
       "id": 2,
       "question": "Hvilken spiller har vunnet Ballon d'Or flest ganger?",
       "options": ["Cristiano Ronaldo", "Lionel Messi", "Zinedine Zidane", "Ronaldinho"],
       "answer": "Lionel Messi"
-    },
-    {
+  },
+  {
       "id": 3,
       "question": "Hvilken klubb vant UEFA Champions League i 2021?",
       "options": ["Manchester City", "Chelsea FC", "Real Madrid", "Bayern München"],
       "answer": "Chelsea FC"
-    },
-    {
+  },
+  {
       "id": 4,
       "question": "Hvilket land var vert for FIFA verdensmesterskapet i 2022?",
       "options": ["Qatar", "Russland", "USA", "Canada"],
       "answer": "Qatar"
-    },
-    {
+  },
+  {
       "id": 5,
       "question": "Hvem er mest scorende på det norske herrelandslaget?",
       "options": ["John Arne Riise", "Josh King", "Erling Haaland", "Jørgen Juve"],
       "answer": "Jørgen Juve"
-    }
-  ]
-  
+  },
+  {
+      "id": 6,
+      "question": "Hvilken klubb vant Premier League i sesongen 2019/2020?",
+      "options": ["Manchester United", "Liverpool", "Manchester City", "Chelsea"],
+      "answer": "Liverpool"
+  },
+  {
+      "id": 7,
+      "question": "Hvem er kjent som 'The King of Football'?",
+      "options": ["Diego Maradona", "Pele", "Johan Cruyff", "Zinedine Zidane"],
+      "answer": "Pele"
+  },
+  {
+      "id": 8,
+      "question": "Hvilket land har vunnet flest FIFA verdensmesterskap?",
+      "options": ["Tyskland", "Italia", "Argentina", "Brasil"],
+      "answer": "Brasil"
+  },
+  {
+      "id": 9,
+      "question": "Hvilken spiller er kjent som 'El Fenomeno'?",
+      "options": ["Cristiano Ronaldo", "Ronaldo Nazário", "Ronaldinho", "Romário"],
+      "answer": "Ronaldo Nazário"
+  },
+  {
+      "id": 10,
+      "question": "Hvem scoret det avgjørende målet i VM-finalen i 2014?",
+      "options": ["Lionel Messi", "Mario Götze", "Neymar", "Thomas Müller"],
+      "answer": "Mario Götze"
+  },
+  {
+      "id": 11,
+      "question": "Hvilken klubb har vunnet flest UEFA Champions League titler?",
+      "options": ["Barcelona", "Liverpool", "Bayern München", "Real Madrid"],
+      "answer": "Real Madrid"
+  },
+  {
+      "id": 12,
+      "question": "Hvilken spiller er kjent for 'Hand of God' målet?",
+      "options": ["Diego Maradona", "Lionel Messi", "Pelé", "Johan Cruyff"],
+      "answer": "Diego Maradona"
+  },
+  {
+      "id": 13,
+      "question": "Hvem vant Ballon d'Or i 2021?",
+      "options": ["Lionel Messi", "Robert Lewandowski", "Karim Benzema", "Cristiano Ronaldo"],
+      "answer": "Lionel Messi"
+  },
+  {
+      "id": 14,
+      "question": "Hvilket lag vant La Liga i sesongen 2020/2021?",
+      "options": ["Real Madrid", "Atletico Madrid", "Barcelona", "Sevilla"],
+      "answer": "Atletico Madrid"
+  },
+  {
+      "id": 15,
+      "question": "Hvem er mest scorende spiller i Premier Leagues historie?",
+      "options": ["Wayne Rooney", "Thierry Henry", "Sergio Agüero", "Alan Shearer"],
+      "answer": "Alan Shearer"
+  },
+  {
+      "id": 16,
+      "question": "Hvem var kaptein for Italia under VM-seieren i 2006?",
+      "options": ["Francesco Totti", "Gianluigi Buffon", "Fabio Cannavaro", "Alessandro Del Piero"],
+      "answer": "Fabio Cannavaro"
+  },
+  {
+      "id": 17,
+      "question": "Hvilken klubb spiller Lionel Messi for etter Barcelona?",
+      "options": ["Paris Saint-Germain", "Manchester City", "Inter Miami", "Newell's Old Boys"],
+      "answer": "Paris Saint-Germain"
+  },
+  {
+      "id": 18,
+      "question": "Hvilket år ble UEFA Champions League første gang arrangert?",
+      "options": ["1955", "1960", "1965", "1970"],
+      "answer": "1955"
+  },
+  {
+      "id": 19,
+      "question": "Hvilket lag vant Copa America i 2021?",
+      "options": ["Argentina", "Brasil", "Chile", "Uruguay"],
+      "answer": "Argentina"
+  },
+  {
+      "id": 20,
+      "question": "Hvem vant EM i 2016?",
+      "options": ["Portugal", "Frankrike", "Tyskland", "Italia"],
+      "answer": "Portugal"
+  },
+  {
+      "id": 21,
+      "question": "Hvem scoret hat-trick i VM-finalen i 1966?",
+      "options": ["Geoff Hurst", "Pelé", "Bobby Charlton", "Gerd Müller"],
+      "answer": "Geoff Hurst"
+  },
+  {
+      "id": 22,
+      "question": "Hvilken spiller er kjent som 'Il Baggio Divino'?",
+      "options": ["Roberto Baggio", "Alessandro Del Piero", "Francesco Totti", "Paolo Maldini"],
+      "answer": "Roberto Baggio"
+  },
+  {
+      "id": 23,
+      "question": "Hvilket lag vant Serie A i sesongen 2020/2021?",
+      "options": ["AC Milan", "Inter Milan", "Juventus", "Napoli"],
+      "answer": "Inter Milan"
+  },
+  {
+      "id": 24,
+      "question": "Hvilken spiller har flest landskamper for Spania?",
+      "options": ["Iker Casillas", "Sergio Ramos", "Andres Iniesta", "Xavi"],
+      "answer": "Sergio Ramos"
+  },
+  {
+      "id": 25,
+      "question": "Hvem var trener for Manchester United før Ole Gunnar Solskjær?",
+      "options": ["David Moyes", "Louis van Gaal", "Jose Mourinho", "Ryan Giggs"],
+      "answer": "Jose Mourinho"
+  },
+  {
+      "id": 26,
+      "question": "Hvilken spiller er kjent for å ha scoret fra egen banehalvdel mot Wimbledon i 1996?",
+      "options": ["David Beckham", "Eric Cantona", "Alan Shearer", "Paul Scholes"],
+      "answer": "David Beckham"
+  },
+  {
+      "id": 27,
+      "question": "Hvem vant Golden Boot i VM 2018?",
+      "options": ["Harry Kane", "Antoine Griezmann", "Romelu Lukaku", "Cristiano Ronaldo"],
+      "answer": "Harry Kane"
+  },
+  {
+      "id": 28,
+      "question": "Hvem er kjent som 'The Special One'?",
+      "options": ["Pep Guardiola", "Jurgen Klopp", "Jose Mourinho", "Carlo Ancelotti"],
+      "answer": "Jose Mourinho"
+  },
+  {
+      "id": 29,
+      "question": "Hvilket lag vant Bundesliga i sesongen 2020/2021?",
+      "options": ["Borussia Dortmund", "RB Leipzig", "Bayern München", "Bayer Leverkusen"],
+      "answer": "Bayern München"
+  },
+  {
+      "id": 30,
+      "question": "Hvem vant Europaligaen i 2021?",
+      "options": ["Manchester United", "Villarreal", "Sevilla", "Inter Milan"],
+      "answer": "Villarreal"
+  }
+]
