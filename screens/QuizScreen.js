@@ -22,6 +22,10 @@ const QuizScreen = ({ route, navigation }) => {
     } else {
       setFeedback(`Feil svar. Riktig svar er: ${currentQuestion.answer}`);
     }
+    // Gjør det umulig å svare på samme spørsmål flere ganger ved å gjøre det umulig å trykke på knappene
+    currentQuestion.options = [];
+    
+
   };
 
   const handleNextQuestion = () => {
