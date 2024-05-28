@@ -2,15 +2,30 @@ import React, { useState, useEffect } from 'react';
 import { View, Text, Button, StyleSheet } from 'react-native';
 import questionsData from '../data/questions.json'; // Importerte spørsmål
 
+const getRandomQuestions = (questions, numQuestions) => {
+  const shuffled = questions.slice();
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled.slice(0, numQuestions);
+};
+
 const QuizScreen = ({ route, navigation }) => {
   const { userName } = route.params;
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [result, setResult] = useState(0); // Bruk tilstand for å holde styr på resultatet
   const [feedback, setFeedback] = useState(null); // Tilstand for å holde tilbakemelding
   const [questions, setQuestions] = useState([]);
+  const [showOptions, setShowOptions] = useState(true); // Tilstand for å kontrollere visningen av alternativer
 
   useEffect(() => {
-    setQuestions(getRandomQuestions(questionsData, 5));
+    const initialQuestions = getRandomQuestions(questionsData, 5);
+    setQuestions(initialQuestions);
+    setCurrentQuestionIndex(0);
+    setResult(0);
+    setFeedback(null);
+    setShowOptions(true); // Tilbakestill visning av alternativer
   }, []);
 
   const handleAnswer = (option) => {
@@ -22,16 +37,14 @@ const QuizScreen = ({ route, navigation }) => {
     } else {
       setFeedback(`Feil svar. Riktig svar er: ${currentQuestion.answer}`);
     }
-    // Gjør det umulig å svare på samme spørsmål flere ganger ved å gjøre det umulig å trykke på knappene
-    currentQuestion.options = [];
-    
-
+    setShowOptions(false); // Skjul alternativer etter at brukeren har svart
   };
 
   const handleNextQuestion = () => {
     if (currentQuestionIndex < questions.length - 1) {
       setCurrentQuestionIndex(currentQuestionIndex + 1);
       setFeedback(null); // Tilbakestill tilbakemelding
+      setShowOptions(true); // Vis alternativer for neste spørsmål
     } else {
       navigation.navigate('Result', { userName, result });
     }
@@ -44,7 +57,7 @@ const QuizScreen = ({ route, navigation }) => {
           <Text style={styles.question}>
             {questions[currentQuestionIndex].question}
           </Text>
-          {questions[currentQuestionIndex].options.map((option, index) => (
+          {showOptions && questions[currentQuestionIndex].options.map((option, index) => (
             <Button key={index} title={option} onPress={() => handleAnswer(option)} />
           ))}
 
@@ -58,11 +71,6 @@ const QuizScreen = ({ route, navigation }) => {
       )}
     </View>
   );
-};
-
-const getRandomQuestions = (questions, numQuestions) => {
-  const shuffled = questions.sort(() => 0.5 - Math.random());
-  return shuffled.slice(0, numQuestions);
 };
 
 const styles = StyleSheet.create({
